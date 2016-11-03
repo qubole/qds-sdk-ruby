@@ -6,8 +6,8 @@ require 'qubole/version'
 Gem::Specification.new do |spec|
   spec.name          = "qubole"
   spec.version       = Qubole::VERSION
-  spec.authors       = ["Volodymyr Ladnik"]
-  spec.email         = ["vladnik@demandbase.com"]
+  spec.authors       = ["Tanish Gupta"]
+  spec.email         = ["dev@qubole.com"]
   spec.summary       = %q{Qubole REST API client}
   spec.description   = %q{Communication with Qubole REST API in a Ruby way}
   spec.homepage      = "https://github.com/Demandbase/qubole-ruby"
