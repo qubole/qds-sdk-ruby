@@ -2,7 +2,7 @@
 
 Qubole REST API client
 
-[![Build Status](https://travis-ci.org/qubole/qds-sdk-ruby.svg?branch=master)](https://travis-ci.org/Demandbase/qubole-ruby)
+[![Build Status](https://travis-ci.org/qubole/qds-sdk-ruby.svg?branch=master)](https://travis-ci.org/qubole/qds-sdk-ruby)
 [![Gem Version](https://badge.fury.io/rb/qubole.svg)](http://badge.fury.io/rb/qubole)
 
 ## Documentation
