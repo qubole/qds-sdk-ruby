@@ -1,0 +1,18 @@
+language: ruby
+
+rvm:
+  - 2.0.0
+  - 2.1
+  - 2.2
+  - 2.3
+  - 2.4
+  - 2.5
+  - jruby-9.1.16.0
+
+sudo: false
+
+env:
+  - PURE_RUBY=1
+  - KITCHEN_SINK=1
+
+script: bundle exec rspec
