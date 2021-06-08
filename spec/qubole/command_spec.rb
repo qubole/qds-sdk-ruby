@@ -69,7 +69,7 @@ module Qubole
 
     describe "#cancel" do
       it "cancels command execution" do
-        expect(Qubole).to receive(:put).with("/commands/1")
+        expect(Qubole).to receive(:put).with("/commands/1", status: 'kill')
         subject.cancel
       end
     end
