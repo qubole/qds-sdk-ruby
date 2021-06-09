@@ -85,7 +85,7 @@ module Qubole
     # Cancel command
     # 
     def cancel
-      Qubole.put("/commands/#{id}")
+      Qubole.put("/commands/#{id}", status: 'kill')
     end
   end
 end
